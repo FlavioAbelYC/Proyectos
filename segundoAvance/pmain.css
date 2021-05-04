@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Original Surfer', cursive;
+}
+
+.imagen
+{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../segundoAvance/img/is4.jpg");
+}
+
+.cuadro
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(202, 28, 28);
+    margin: auto;
+}
+
+.cuadro hr
+{
+    border-top: 1px solid gold;
+}
+
+.cuadro h1
+{
+    font-size: 6vw;
+    margin-bottom: 10px;
+}
+
+.cuadro p
+{
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+
+.link1
+{
+    margin: 15px;
+    position: relative;
+}
+
+.link1 a
+{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.link1 a:hover
+{
+    background-color: rgba(150, 2, 173, 0.8);
+    color: white;
+}
+
+.video1
+{
+    top: 100%;
+    left: 100%;
+    margin: auto;
+    padding: 150px;
+    text-align: center;
+
+}
+
+.desc
+{
+    padding-left: 20%;
+}
+
+.botton1 
+{
+    padding: 5%;
+}
+
+.botton1 a
+{
+    width: 200px;
+}
+
+.desc hr
+{
+    border-top:1px solid rgba(150, 2, 173, 0.8) ;
+}
+.desc p
+{
+    text-align: justify;
+}
+
+.tit
+{
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}

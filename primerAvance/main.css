@@ -1,0 +1,79 @@
+/*DATOS INDEX*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Original Surfer', cursive; ;
+}
+
+.foto
+{
+    mar
+}
+
+
+
+
+
+
+.navegacion
+{
+    width: 1000px;
+    margin: 30px auto;
+    background: rgb(96, 96, 230);
+}
+.menu li
+{
+    display: inline-block;
+}
+.menu li a
+{
+    display:block ;
+    padding: 15px 20px;
+    color: white;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+.menu li a:hover
+{
+    color: #DA0202;
+    transition: all .3s;
+}
+.Inicio img
+{
+    width: 40%;
+    padding-left: 250px;
+}
+.CV ul
+{
+    color: black;
+}
+.CV li
+{
+    color:red;
+}
+.Contacto  p
+{
+    color: red;
+}
+
+/*DATOS CURSOS*/
+
+.Cursos2 > li
+{
+    color: red;
+}
+.Cursos2  ul
+{
+    color: black;
+}
+h1
+{
+    color: cornflowerblue;
+}
+
+
+
